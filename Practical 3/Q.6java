@@ -1,4 +1,4 @@
-//Q7. Remove duplicate from Array
+//Q6. Remove duplicate from Array
 import java.util.Scanner;
 class RemoveDuplicateFromArray {
     public static void main(String[] args) {
