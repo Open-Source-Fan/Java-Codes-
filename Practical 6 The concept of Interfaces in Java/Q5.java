@@ -2,7 +2,6 @@
 abstract class Marks {
     abstract double getPercentage();
 }
-
 class A extends Marks {
     int mark1, mark2, mark3;
 
@@ -17,7 +16,6 @@ class A extends Marks {
         return (total / 3.0); 
     }
 }
-
 class B extends Marks {
     int mark1, mark2, mark3, mark4;
 
@@ -33,14 +31,14 @@ class B extends Marks {
         return (total / 4.0); 
     }
 }
-
 // Main class
-class Main {
+class Main6_5 {
     public static void main(String[] args) {
         // Create objects for students
         A studentA = new A(85, 90, 95);
         B studentB = new B(80, 70, 75, 85);
 
+        System.out.println("Shubhangi Tyagi 24Csu294");
         System.out.println("Percentage of Student A: " + studentA.getPercentage() + "%");
         System.out.println("Percentage of Student B: " + studentB.getPercentage() + "%");
     }
